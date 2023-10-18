@@ -11,7 +11,7 @@ imc > 30 --> obesidad
 */
 
 #include <stdio.h>
-int mai (){
+int main (){
     float peso;
     float h;
 

@@ -6,6 +6,8 @@ int main() {
     printf("Seleccione una opción (1 o 2):\n");
     printf("1. Ver día de la semana\n");
     printf("2. Realizar operaciones matemáticas\n");
+    printf("3. ciclos\n");
+
     scanf("%d", &opcion);
 
     switch (opcion) {
@@ -78,7 +80,66 @@ int main() {
 
             printf("Resultado: %.2lf %c %.2lf = %.2lf\n", num1, operador, num2, resultado);
             break;
+        
+        case 3:
+            char ciclo;
+            int MAX; // variable que contiene el numero maximo de la tabla a imprimir
+            int N; // variable que contiene el numero de la tabla a imprimir
+            int i; // Variable de control del ciclo
+            N = 0;
+            i = 0;
+            MAX = 0;
+            printf("Seleccione una opción (1, 2 o 3):\n");
+            printf("1. ciclo for\n");
+            printf("2. ciclo while\n");
+            printf("3. ciclo do while\n");
+            scanf(" %c", &ciclo);
 
+            printf("Ingrese el valor maximo de la tabla: ");
+            scanf("%d", &MAX);
+            printf("Ingrese el valor para general la tabla: ");
+            scanf("%d", &N);
+
+            switch (ciclo)
+            {
+            case 1:
+                    for (
+                        i = 1; 
+                        i <= MAX; 
+                        i++)
+                {
+                    printf("%3d x %3d = %6d \n", N, i, (N*i));
+                // printf(" **** iteracion numero %d \n", i);   
+                //Sleep(1000); // 1 segundo
+
+                }
+                break;
+                
+            case 2:
+            // ejemplo con while
+                i = 1;
+                while (i <= MAX)
+                {
+                    
+                    printf("%3d x %3d = %6d \n", N, i, (N*i));
+                    i++;
+                }
+                break;
+            case 3:
+            // ejemplo con do while
+                i = 1;
+                do
+                {
+                    printf("%3d x %3d = %6d \n", N, i, (N*i));
+                    i++;
+                } while (i <= MAX);
+                break;      
+            
+            default:
+                break;
+            }
+           
+            break;
         default:
             printf("Opción no válida. Debe seleccionar 1 o 2.\n");
             break;
