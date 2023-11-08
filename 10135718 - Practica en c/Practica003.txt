@@ -1,0 +1,66 @@
+Introduccion a la algoritmia
+ID : 1013-5718
+Autor : Steven N. Duarte C.
+
+Practica 003
+
+Valor 4 Puntos
+1. Describa el origen del Lenguaje C / Creadores / características / Evolución:
+
+    ▪️ El lenguaje C fue desarrollado por Dennis Ritchie en los laboratorios Bell de AT&T en la década de 1970. Su objetivo era crear un lenguaje de programación de alto nivel que fuera portátil y eficiente.
+    Características principales:
+    ▪️ C es un lenguaje de programación de propósito general.
+    Es conocido por su eficiencia y control de bajo nivel, lo que lo hace adecuado para la programación de sistemas.
+    ▪️ C es un lenguaje estructurado que utiliza una sintaxis clara y concisa.
+    Ha influido en muchos otros lenguajes, como C++, C#, Java, entre otros.
+    ▪️ Evolución:
+    C dio lugar a diversas variantes y estándares, como ANSI C y C99, que introdujeron mejoras y estandarizaron el lenguaje.
+    El lenguaje C sigue siendo ampliamente utilizado en la actualidad y es una base importante para el desarrollo de software.
+
+2. Describa una lista de palabras reservadas en lenguaje C:
+
+    ▪️ int, char, float, double: Tipos de datos.
+    ▪️ if, else, while, for: Estructuras de control.
+    ▪️ return: Para devolver valores desde una función.
+    ▪️ break, continue: Para controlar bucles.
+    ▪️ struct, union: Para definir estructuras de datos.
+    ▪️ switch, case: Para casos en una estructura de selección.
+    ▪️ sizeof: Para obtener el tamaño en bytes de un tipo de dato.
+    ▪️ include: Para incluir bibliotecas.
+
+3. Presente la estructura básica de un programa en lenguaje C:
+    
+    Un programa en C tiene una estructura básica que consta de al menos una función main. Aquí está un ejemplo simple:
+
+        /*
+Introduccion a la algoritmia
+ID : 1013-5718
+Autor : Steven N. Duarte C.
+Practica 00
+Ejercicio 00
+*/
+
+#include <stdio.h> // Incluye la biblioteca estándar para entrada/salida.
+
+        int main() {
+            // Código del programa va aquí.
+            printf("Hola, mundo!\n"); // Imprime un mensaje en la consola.
+            return 0; // Termina el programa con un código de retorno.
+        }
+    
+    /*
+Introduccion a la algoritmia
+ID : 1013-5718
+Autor : Steven N. Duarte C.
+Practica 00
+Ejercicio 00
+*/
+
+#include <stdio.h>: Incluye la biblioteca estándar de entrada/salida.
+    int main() { ... }: La función principal del programa, donde comienza la ejecución.
+    printf("Hola, mundo!\n");: Ejemplo de salida en la consola.
+    return 0;: Termina el programa con un código de retorno (0 generalmente indica éxito).
+
+
+
+    

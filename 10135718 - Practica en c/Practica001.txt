@@ -1,0 +1,47 @@
+Introduccion a la algoritmia
+ID : 1013-5718
+Autor : Steven N. Duarte C.
+Practica 001
+
+Miremos los algoritmos
+Valor 4 Puntos
+
+
+1. Presentar 4 Definiciones de Algoritmo. Cada uno en un párrafo separado.
+
+    ▪️ Un algoritmo es un conjunto de instrucciones bien definidas que permiten resolver un problema o llevar a cabo una tarea. Estas instrucciones deben ser claras y precisas para que una computadora o una persona pueda ejecutarlas.
+    ▪️ Un algoritmo es un procedimiento o fórmula que describe cómo realizar una tarea o resolver un problema. Puede consistir en una secuencia de pasos específicos o reglas que deben seguirse para obtener un resultado deseado.
+    ▪️ Los algoritmos son métodos sistemáticos para abordar problemas. Son una serie de pasos lógicos y finitos que, cuando se siguen correctamente, llevan a una solución.
+    ▪️ Un algoritmo es una abstracción que representa un plan o un conjunto de reglas para resolver un problema. Puede ser implementado en diversos lenguajes de programación.
+
+2. En cada una, encontrar los elementos que destaca la definición. (Ejemplo de términos a 
+destacar: Secuencia / pasos / resolución / …)
+
+    ▪️ Secuencia de pasos.
+    ▪️ Instrucciones precisas.
+    ▪️ Resolución de problemas.
+    ▪️ Procedimiento o fórmula.
+    ▪️ Métodos sistemáticos.
+
+3. Destacar 5 características de los algoritmos.
+
+    ▪️ Finitud: Los algoritmos deben tener un número finito de pasos o instrucciones.
+    ▪️ Precisión: Las instrucciones en un algoritmo deben ser claras y sin ambigüedades.
+    ▪️ Eficiencia: Un buen algoritmo debe ser eficiente en términos de tiempo y recursos.
+    ▪️ Generalidad: Deben ser aplicables a una variedad de situaciones similares.
+    ▪️ Determinismo: Cada paso de un algoritmo debe ser definido y conducir a un resultado predecible.
+
+4. Describir al menos 3 notaciones algorítmicas, y su uso.
+
+    ▪️ Pseudocódigo: Es una forma intermedia entre el lenguaje natural y el código de programación. Se utiliza para planificar y diseñar algoritmos antes de implementarlos en un lenguaje de programación.
+    ▪️ Diagramas de flujo: Representan visualmente los pasos de un algoritmo utilizando símbolos y flechas para conectarlos. Son útiles para ilustrar procesos de manera gráfica.
+    ▪️ Lenguaje de programación: Un lenguaje de programación en sí mismo puede utilizarse para describir algoritmos mediante código ejecutable.
+
+
+5. Presentar los componentes básicos de un diagrama de flujo.
+
+    ▪️ Inicio/Fin: Representado por óvalos, indica el comienzo o el final del proceso.
+    ▪️ Proceso: Representado por rectángulos, describe una acción o una serie de acciones.
+    ▪️ Decisión: Representado por rombos, indica una pregunta o una decisión que lleva a diferentes caminos.
+    ▪️ Conector: Utilizado para conectar diferentes partes del diagrama.
+    ▪️ Flechas: Representan la dirección del flujo de control.

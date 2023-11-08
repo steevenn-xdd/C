@@ -1,0 +1,52 @@
+Introduccion a la algoritmia
+ID : 1013-5718
+Autor : Steven N. Duarte C.
+
+Practica 002
+
+Miremos los tipos de datos y Operadores
+
+Valor 4 Puntos
+1. Presentar los tipos de datos simples existentes en ANSI C / Presentar en cada tipo de dato, 
+las longitudes en bytes.
+
+    ▪️ char: 1 byte
+    ▪️ int: 4 bytes
+    ▪️ float: 4 bytes
+    ▪️ double: 8 bytes
+    ▪️ short int: 2 bytes
+    ▪️ long int: 4 bytes
+    ▪️ long double: 8 bytes
+
+2. Presentar los operadores en C, 
+    a. Clasificados por tipos de operadores
+        ▪️ Operadores aritméticos: +, -, *, /, % (modulo)
+        ▪️ Operadores de relación: == (igual), != (distinto), > (mayor), < (menor), >= (mayor o igual), <= (menor o igual)
+        ▪️ Operadores lógicos: && (y lógico), || (o lógico), ! (negación lógica)
+        ▪️ Operadores de incremento/decremento: ++ (incremento), -- (decremento)
+        ▪️ Operadores de asignación: = (asignación), += (suma y asigna), -= (resta y asigna), *= (multiplica y asigna), /= (divide y asigna), %= (modulo y asigna)
+        ▪️ Operador condicional: ? : (operador ternario)
+        
+    b. Mostrar la precedencia de estos.
+        La precedencia de los operadores en C se refiere al orden en el que se evalúan las expresiones. Los operadores se evalúan en el siguiente orden, de mayor a menor precedencia:
+
+        ▪️ Paréntesis ()
+        ▪️ Operadores de incremento/decremento (++ y --)
+        ▪️ Operadores aritméticos (*, /, %, +, -)
+        ▪️ Operadores de relación (==, !=, >, <, >=, <=)
+        ▪️ Operadores lógicos (!, &&, ||)
+        ▪️ Operador condicional ternario (?:)
+        ▪️ Operadores de asignación (=, +=, -=, *=, /=, %=)
+        ▪️ Operadores de coma (,)
+
+    3. Identifique los siguientes operadores, comente su uso
+        a. Operadores monarios:
+            -: Se utiliza para negar un valor numérico. Por ejemplo, -x cambiará el signo de x.
+            +: Aunque no es comúnmente utilizado, puede utilizarse para forzar un valor a ser positivo.
+            !: Se utiliza para negar una expresión lógica. Por ejemplo, !condicion invertirá el valor de la condición.
+        b. Operador de asignación:
+            =: Se utiliza para asignar un valor a una variable.
+        c. Operador ternario: 
+            ?: También conocido como operador condicional, se utiliza para realizar una evaluación condicional.
+        d. Operadores de grupo 
+            ( ): Se utilizan para agrupar expresiones y controlar el orden de evaluación en una expresión.
